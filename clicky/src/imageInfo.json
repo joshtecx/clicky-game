@@ -1,0 +1,17 @@
+[
+    {
+       "id": 1,
+       "image": "https://img.buzzfeed.com/buzzfeed-static/static/2016-03/15/10/enhanced/webdr05/anigif_enhanced-1244-1458051611-15.gif",
+       "clicked": false
+    },
+    {
+        "id": 2,
+        "image": "https://static.highsnobiety.com/wp-content/uploads/2018/03/29134547/quavo-facts-you-didnt-know-01-1200x800.jpg",
+        "clicked": false
+    },
+    {
+        "id": 3,
+        "image": "https://mixtapemonkey.com/artistpic/244.jpg",
+        "clicked": false
+    }
+]
