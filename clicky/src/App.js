@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import Header from "./components/Header"
-import ImageCard from "./components/ImageCard"
-import Wrapper from "./components/Wrapper"
-import Footer from "./components/Footer"
+import Header from "./components/Header/Header"
+import ImageCard from "./components/ImageCard/ImageCard"
+import Wrapper from "./components/Wrapper/Wrapper"
+import Footer from "./components/Footer/Footer"
 import images from "./imageInfo.json"
 
 class App extends Component {
@@ -11,28 +11,7 @@ class App extends Component {
     count: 0,
     score: 0
   };
- 
-//  clicker = (id, clicked) => {
-//    if (clicked){
-//      console.log("changed to true");
-//      this.state.images.forEach((img, i) => {
-//       this.state.images[i].clicked = false;
-//      });
-//      return this.setState({
-//        image: this.state.images.sort(() => Math.random()- 0.5),
-//        score: this.state.count,
-//        count: 0
-//      })
-//    } else {
-//      console.log("this is still false");
-//      this.state.images.forEach((img, i) => {
-//       if (id === img.id){
-//         this.state.images[i].clicked = true;
-//       }
-//      });
-//      return this.setState({image: this.state.images.sort(() => Math.random()- 0.5), count: this.state.count + 1})
-//    }
-//  }
+
   render(){
     return (  
       <Wrapper>
