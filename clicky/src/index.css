@@ -1,4 +1,8 @@
-
+body {
+  background-image: url("https://www.myajc.com/rf/image_medium/Pub/p9/MyAJC/2018/01/20/Images/newsEngin.21018268_101816-weather-2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 img {
   height: 200px;
